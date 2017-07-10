@@ -1,0 +1,20 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+
+target ‘Reuters’ do
+    pod 'MBProgressHUD'
+    pod 'Reachability', '~> 3.2'
+    pod 'AFNetworking', '~> 2.6'
+    pod 'SDWebImage', '~> 3.7'
+    pod 'MWPhotoBrowser'
+    pod 'SSZipArchive'
+    pod 'JASidePanels'
+    pod 'SHPieChartView'
+    pod 'Parse', '~> 1.14'
+    pod 'Bolts', '~> 1.8'
+end
+
+post_install do |installer|
+    `find Pods -regex 'Pods/Parse.*\\.h' -print0 | xargs -0 sed -i '' 's/\\(<\\)Parse\\/\\(.*\\)\\(>\\)/\\"\\2\\"/'`
+end

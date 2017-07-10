@@ -1,0 +1,6 @@
+framework module SHPieChartView {
+  umbrella header "SHPieChartView-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_Reuters {
+  umbrella header "Pods-Reuters-umbrella.h"
+
+  export *
+  module * { export * }
+}

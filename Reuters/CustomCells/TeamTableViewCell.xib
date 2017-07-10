@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="teamCell" rowHeight="90" id="KGk-i7-Jjw" customClass="TeamTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="90"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="89"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="umR-xK-OqY">
+                        <rect key="frame" x="8" y="8" width="304" height="73"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="team_default.png" translatesAutoresizingMaskIntoConstraints="NO" id="F9r-Gl-Kh1">
+                                <rect key="frame" x="8" y="1" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="70" id="Jjg-ty-Kim"/>
+                                    <constraint firstAttribute="height" constant="70" id="d7F-Rn-e7A"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xRx-19-xfW">
+                                <rect key="frame" x="86" y="8" width="210" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3i4-3C-SaI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="17"/>
+                                <color key="textColor" red="0.16078431369999999" green="0.082000000000000003" blue="0.43137254899999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGF-Ci-sgD">
+                                <rect key="frame" x="86" y="32" width="210" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.2196078431372549" green="0.22352941176470587" blue="0.22352941176470587" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="F9r-Gl-Kh1" firstAttribute="leading" secondItem="umR-xK-OqY" secondAttribute="leadingMargin" id="BXt-X3-W3W"/>
+                            <constraint firstItem="F9r-Gl-Kh1" firstAttribute="centerY" secondItem="umR-xK-OqY" secondAttribute="centerY" id="DnJ-hN-f79"/>
+                            <constraint firstItem="xRx-19-xfW" firstAttribute="trailing" secondItem="VGF-Ci-sgD" secondAttribute="trailing" id="Sns-S3-Frb"/>
+                            <constraint firstItem="xRx-19-xfW" firstAttribute="trailing" secondItem="umR-xK-OqY" secondAttribute="trailingMargin" id="WqZ-HS-wpf"/>
+                            <constraint firstItem="xRx-19-xfW" firstAttribute="leading" secondItem="VGF-Ci-sgD" secondAttribute="leading" id="cq8-Fk-FaI"/>
+                            <constraint firstAttribute="bottom" secondItem="VGF-Ci-sgD" secondAttribute="bottom" constant="20" id="iPF-xm-6gC"/>
+                            <constraint firstItem="xRx-19-xfW" firstAttribute="top" secondItem="umR-xK-OqY" secondAttribute="topMargin" id="jHA-fm-f3v"/>
+                            <constraint firstItem="xRx-19-xfW" firstAttribute="leading" secondItem="F9r-Gl-Kh1" secondAttribute="trailing" constant="8" symbolic="YES" id="ncq-f0-v6r"/>
+                            <constraint firstItem="VGF-Ci-sgD" firstAttribute="top" secondItem="xRx-19-xfW" secondAttribute="bottom" constant="3" id="xAP-hQ-wQb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                <constraints>
+                    <constraint firstItem="umR-xK-OqY" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" id="dmk-lN-Abb"/>
+                    <constraint firstItem="umR-xK-OqY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="hne-YD-4Y8"/>
+                    <constraint firstItem="umR-xK-OqY" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="pWg-eO-id2"/>
+                    <constraint firstItem="umR-xK-OqY" firstAttribute="bottom" secondItem="H2p-sc-9uM" secondAttribute="bottomMargin" id="smW-aO-gy3"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="desg" destination="VGF-Ci-sgD" id="wsl-C0-rUO"/>
+                <outlet property="memberImg" destination="F9r-Gl-Kh1" id="Ith-hb-stP"/>
+                <outlet property="memberName" destination="xRx-19-xfW" id="2lg-el-0En"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="75"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="team_default.png" width="512" height="512"/>
+    </resources>
+</document>

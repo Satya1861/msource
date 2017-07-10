@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A1601002FD5306B781117DD5520723D5FFAF4521",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A1601002FD5306B781117DD5520723D5FFAF4521" : 9223372036854775807,
+    "18B1B2FF9037D78F377A3899DC8CB5EC25E448C9" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "54519065-D579-4433-85F5-E1AE791DE645",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A1601002FD5306B781117DD5520723D5FFAF4521" : "Jito%20JPL\/",
+    "18B1B2FF9037D78F377A3899DC8CB5EC25E448C9" : "movent"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Reuters",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Reuters\/Reuters.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/scriptlanes\/movent.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "18B1B2FF9037D78F377A3899DC8CB5EC25E448C9"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/scriptlanes\/jito-ios.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A1601002FD5306B781117DD5520723D5FFAF4521"
+    }
+  ]
+}
